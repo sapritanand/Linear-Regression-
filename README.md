@@ -5,21 +5,26 @@ This Repository contains a Machine Learning Model which can predict the housing 
 <p align="center">
   <strong>Predict housing prices using a Neural Network model built with Keras.</strong>
 </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/ML-Linear%20Regression-blue">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-green">
+  <img src="https://img.shields.io/badge/Status-Completed-success">
+</p>
+<h2>Model</h2>
+<p>
+  The model is based on a simple linear regression algorithm, which predicts the housing price by finding a linear relationship between the input features and the output variable (price). The model is trained using:
+  <ul>
+    <li>Training data (70%)</li>
+    <li>Testing data (30%)</li>
+  </ul>
+</p>
 
-<hr>
-
-<h2>📂 Project Structure</h2>
-<ul>
-  <li><code>data/</code>: Folder for storing housing market data in CSV format.</li>
-  <li><code>models/</code>: Folder to save the trained Keras model.</li>
-  <li><code>notebook/</code>: Jupyter notebook for exploratory data analysis and model evaluation.</li>
-  <li><code>src/</code>: Source code for data preprocessing, model building, and prediction.</li>
-</ul>
-
-<hr>
-
-<h2>🛠️ Requirements</h2>
-<p>Make sure you have the necessary dependencies by running the following command:</p>
-
-```bash
-pip install -r requirements.txt
+<h2>Evaluation</h2>
+<p>
+  The model's performance is evaluated using the following metrics:
+  <ul>
+    <li><strong>Mean Squared Error (MSE):</strong> Measures the average squared difference between predicted and actual values.</li>
+    <li><strong>R-squared (R²):</strong> Indicates the proportion of variance in the target variable explained by the features.</li>
+  </ul>
+  The results can be found in the output of the notebook/script.
+</p>
